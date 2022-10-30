@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nettflix Site Made By Daksh Chaudhary</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+ </head>
+ <body>
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+     
+
+    <!------------------------ Navbar----------------------- -->
+<div class="nav" id="nav">
+    <a href="index.html">
+    <img src="images/netflix-logo.png" alt="" class="nav_logo raj baarish">
+    </a>
+
+
+    <div class="container">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+      </a>
+
+      <div class="col-md-2 text-end tejvir">
+        <button type="button" class="btn btn-outline-primary me-2 daksh ">
+
+
+            <!-------------------language dropdown--------------->
+
+            <label for=""><strong>Languages:</strong> </label>
+        <select name="lang" id="lang" class="samsung">
+        <option value="English">English</option>
+        <option value="Hindi">Hindi</option>
+        </select>
+
+        <!--------------------------sign-up-------------------->
+
+
+        </button> &emsp;
+        <button type="button" class="btn btn-primary mitthu ">Sign-up</button>
+      </div>
+    </header>
+  </div>
+</div>
+
+
+<!-------------------------------background image------------->
+
+
+<div class="banner center ">
+    <div class="banner_contents sagar">
+
+    
+
+    <!----------------------- sign-up form ---------------->
+
+
+    <form action="action_page.php" class="ayush">
+        <div class="container">
+          <h1 class="tarika">Sign-up</h1>
+          <br>
+          <p class="tarika"><i>Please fill in this form to create an account.</i></p>
+          <hr>
+       
+          <label for="email" class="tarika"><b>Email:</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      
+          <label for="psw" class="tarika"><b>Password:</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      
+          <label for="psw-repeat" class="tarika"><b>Repeat Password:</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+          <hr>
+      
+          <p class="tarika">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+          <button type="submit" class="registerbtn">Register</button>
+
+          <button type="submit" class="registerbtn daya">Already have an acoount?</button>
+
+        </div>
+  
+      </form>
+
+
+
+
+
+
+      <!------------------------banner photo ending---------->
+    </div>
+      <div class="banner--fadeBottom"></div>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<!--------------------------border line------------->
+
+<hr class="solid">
+<br>
+<br>
+
+
+<!-------------------------footer---------------->
+
+<div class="footer-clean">
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center suresh">
+                <div class="col-sm-4 col-md-3 item">
+                    <h3 class="kannu">Services</h3>
+                    <ul>
+                        <li><a href="#">Web design</a></li>
+                        <br>
+                        <li><a href="#">Development</a></li>
+                        <br>
+                        <li><a href="#">Hosting</a></li>
+                        <br>
+                    </ul>
+                
+                </div>
+                <br>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3 class="kannu">About</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <br>
+                        <li><a href="#">Team</a></li>
+                        <br>
+                        <li><a href="#">Legacy</a></li>
+                        <br>
+                    </ul>
+                </div>
+                <br>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3 class="kannu">Careers</h3>
+                    <ul>
+                        <li><a href="#">Job</a></li>
+                        <br>
+                        <li><a href="#"> Netflix</a></li>
+                        <br>
+                        <li><a href="#"> Movies</a></li>
+                        <br>
+                    </ul>
+                </div>
+                <br>
+                <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                    <p class="copyright">&copy;NETFLIX</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+<script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY >= 100) {
+            nav.classList.add('nav_black')
+        } else {
+             nav.classList.remove('nav_black');
+        }
+    });
+</script>
+
+<script src="java.js"></script>
+
+
+ </body>
+ </html>
